@@ -2,9 +2,11 @@
     "name": "pdima88/icms2elasticsearch",
     "description": "Elasticsearch component for InstantCMS 2",
     "type": "library",
-    "require": {        
-        "pdima88/icms2ext": "dev-master"
+    "require": {
+        "pdima88/icms2ext": "dev-master",
+        "elasticsearch/elasticsearch": "^7.2"
     },
+    "minimum-stability": "dev",
     "license": "MIT",
     "authors": [
         {
@@ -16,5 +18,5 @@
         "psr-4": {
             "pdima88\\icms2elasticsearch\\": "/src"
         }
-    } 
+    }
 }
